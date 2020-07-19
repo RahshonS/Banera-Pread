@@ -1,0 +1,90 @@
+/*Element Selectors*/
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+li{
+    display:inline;
+    text-align:center;
+}
+
+/*ID's*/
+#opening-message{
+    text-align:center;
+    color:white;
+    background-color:green;
+    margin:-16px;
+    padding:20px;
+}
+
+/*Classes*/
+.page-body{
+    margin:0;
+    border:0;
+}
+
+.menu{
+    background-color:white;
+    padding:20px;
+}
+
+.promo-text{
+    text-align:center;
+    padding:50px;
+}
+
+.promo-text2{
+    text-align:center;
+    padding:50px;
+}
+
+.promo-text3{
+    text-align:center;
+    padding:50px;
+}
+
+.promo-text4{
+    text-align:center;
+    padding:40px;
+}
+
+.promo-text5{
+    text-align:center;
+    padding:70px;
+}
+
+.promo-text6{
+    text-align:center;
+    padding:50px;
+}
+
+
+.align-right{
+    text-align:right;
+}
+
+.footer-section-1{
+    color:white;
+    background-color:green;
+    margin-top:-9px;
+    margin-bottom:-9px;
+    padding:10px;
+    border:0px;
+}
+
+.footer-section-2{
+    color:white;
+    background-color:green;
+    margin-top:-9px;
+    margin-bottom:-9px;
+    padding:9px;
+}
+
+.footer-section-3{
+    color:white;
+    background-color:green;
+    margin-top:-15px;
+    margin-bottom:-9px;
+}
