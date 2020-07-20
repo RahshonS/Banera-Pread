@@ -10,6 +10,11 @@ li{
     text-align:center;
 }
 
+img{
+    max-width:100%;
+    height:auto;
+}
+
 /*ID's*/
 #opening-message{
     text-align:center;
