@@ -3,6 +3,9 @@ ul{
     list-style-type:none;
     margin:0;
     padding:0;
+    overflow:hidden;
+    /*position:fixed;*/
+    /*width:100%;*/
 }
 
 li{
@@ -22,6 +25,8 @@ img{
     background-color:green;
     margin:-16px;
     padding:20px;
+
+    
 }
 
 /*Classes*/
@@ -31,8 +36,10 @@ img{
 }
 
 .menu{
-    background-color:white;
-    padding:20px;
+    padding:25px;
+    background-color:#333;
+    position:fixed;
+    width:100%;
 }
 
 .promo-text{
@@ -43,6 +50,7 @@ img{
 .promo-text2{
     text-align:center;
     padding:50px;
+    background-color:gray;
 }
 
 .promo-text3{
@@ -65,9 +73,16 @@ img{
     padding:50px;
 }
 
+.float-left{
+    float:left;
+}
 
-.align-right{
-    text-align:right;
+.float-center{
+    float:center;
+}
+
+.float-right{
+    float:right;
 }
 
 .footer-section-1{
