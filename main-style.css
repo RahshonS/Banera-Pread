@@ -1,16 +1,18 @@
 /*Element Selectors*/
 ul{
     list-style-type:none;
-    margin:0;
-    padding:0;
+    display:block;
+    /*text-align:center;*/
+    /*margin:9px;*/
+    /*padding:17px;*/
     overflow:hidden;
     /*position:fixed;*/
     /*width:100%;*/
 }
 
 li{
-    display:inline;
-    text-align:center;
+    /*display:inline;*/
+    text-align:left;
 }
 
 img{
@@ -36,7 +38,7 @@ img{
 }
 
 .menu{
-    padding:25px;
+    padding:15px;
     background-color:#333;
     position:fixed;
     width:100%;
@@ -85,28 +87,23 @@ img{
     float:right;
 }
 
-.footer-section-1{
+.footer-section{
     color:white;
     background-color:green;
     margin-top:-9px;
     margin-bottom:-9px;
     padding:10px;
     border:0px;
+    text-align:center;
 }
 
-.footer-section-2{
+.footer-section-alt{
     color:white;
     background-color:green;
     margin-top:-9px;
     margin-bottom:-9px;
-    padding:9px;
-}
-
-.footer-section-3{
-    color:white;
-    background-color:green;
-    margin-top:-15px;
-    margin-bottom:-9px;
+    padding:10px;
+    border:0px;
 }
 
 .button{
@@ -126,4 +123,16 @@ img{
 .button-alt{
     background-color:white;
     color:green;
+}
+
+.sticky{
+    position:fixed;
+}
+
+.align-left{
+    text-align:left;
+}
+
+.align-right{
+    text-align:right;
 }
