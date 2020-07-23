@@ -11,8 +11,8 @@ ul{
 }
 
 li{
-    /*display:inline;*/
-    text-align:left;
+    display:inline;
+    text-align:center;
 }
 
 img{
@@ -38,10 +38,7 @@ img{
 }
 
 .menu{
-    padding:15px;
-    background-color:#333;
-    position:fixed;
-    width:100%;
+    display:inline;
 }
 
 .promo-text{
@@ -100,9 +97,9 @@ img{
 .footer-section-alt{
     color:white;
     background-color:green;
-    margin-top:-9px;
-    margin-bottom:-9px;
-    padding:10px;
+    margin-top:8px;
+    margin-bottom:10px;
+    padding:30px;
     border:0px;
 }
 
@@ -135,4 +132,8 @@ img{
 
 .align-right{
     text-align:right;
+}
+
+.large-font{
+    font-size:25px;
 }
