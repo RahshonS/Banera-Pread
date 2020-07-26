@@ -18,6 +18,7 @@ li{
 img{
     max-width:100%;
     height:auto;
+    z-index:-1;
 }
 
 /*ID's*/
@@ -44,32 +45,38 @@ img{
 .promo-text{
     text-align:center;
     padding:50px;
+    opacity:0.8;
 }
 
 .promo-text2{
     text-align:center;
     padding:50px;
     background-color:gray;
+    opacity:0.8;
 }
 
 .promo-text3{
     text-align:center;
     padding:50px;
+    opacity:0.8;
 }
 
 .promo-text4{
     text-align:center;
     padding:40px;
+    opacity:0.8;
 }
 
 .promo-text5{
     text-align:center;
     padding:70px;
+    opacity:0.8;
 }
 
 .promo-text6{
     text-align:center;
     padding:50px;
+    opacity:0.8;
 }
 
 .float-left{
@@ -122,8 +129,9 @@ img{
     color:green;
 }
 
-.sticky{
+.header{
     position:fixed;
+
 }
 
 .align-left{
