@@ -21,13 +21,23 @@ img{
     z-index:-1;
 }
 
+a:link{                         /*links in default state*/
+    text-decoration:none;          
+    /* color:green; */
+}
+
+a:visited{
+    color:purple;
+}
+
 /*ID's*/
-#opening-message{
+#opening-message{               /*Applied to the fixed message at the very top of the screen */
     text-align:center;
     color:white;
     background-color:green;
     margin:-16px;
     padding:20px;
+    
 
     
 }
@@ -38,42 +48,49 @@ img{
     border:0;
 }
 
-.menu{
-    display:inline;
+.heading{                           /*Encloses the two fixed position elements at the top of the page*/
+    position:fixed;
+    max-width:900px;
 }
 
-.promo-text{
+.menu{                              /*Applied to the fixed horizontal nav at the top of the screen*/
+    display:inline;
+    color:green;
+
+}
+
+.promo-text{                       /*Corresponds to the text block between the first two pictures*/
     text-align:center;
     padding:50px;
     opacity:0.8;
 }
 
-.promo-text2{
+.promo-text2{                      /*Corresponds to the text block between pictures 2 and 3*/
     text-align:center;
     padding:50px;
     background-color:gray;
     opacity:0.8;
 }
 
-.promo-text3{
+.promo-text3{                   /*Corresponds to the text block between pictures 3 and 4*/
     text-align:center;
     padding:50px;
     opacity:0.8;
 }
 
-.promo-text4{
+.promo-text4{                   /*Corresponds to the text block between pictures 4 and 5*/
     text-align:center;
     padding:40px;
     opacity:0.8;
 }
 
-.promo-text5{
+.promo-text5{                   /*Corresponds to the text block between pictures 5 and 6*/
     text-align:center;
     padding:70px;
     opacity:0.8;
 }
 
-.promo-text6{
+.promo-text6{                   /*Corresponds to the text block under the last picture*/
     text-align:center;
     padding:50px;
     opacity:0.8;
