@@ -50,12 +50,15 @@ a:visited{
 
 .heading{                           /*Encloses the two fixed position elements at the top of the page*/
     position:fixed;
-    max-width:900px;
+    max-width:500px;
+    border-style:solid;
+    border-color:red;
 }
 
 .menu{                              /*Applied to the fixed horizontal nav at the top of the screen*/
     display:inline;
     color:green;
+    
 
 }
 
