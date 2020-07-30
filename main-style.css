@@ -32,12 +32,10 @@ a:visited{
 
 /*ID's*/
 #opening-message{               /*Applied to the fixed message at the very top of the screen */
-    text-align:center;
-    color:white;
-    background-color:green;
-    margin:-16px;
-    padding:20px;
-    
+  border-style:solid;
+  border-color:black;
+  color:blue;
+  position:fixed;
 
     
 }
@@ -57,7 +55,12 @@ a:visited{
 
 .menu{                              /*Applied to the fixed horizontal nav at the top of the screen*/
     display:inline;
-    color:green;
+    border-style:solid;
+    border-color:black;
+    position:fixed;
+    
+    
+    
     
 
 }
