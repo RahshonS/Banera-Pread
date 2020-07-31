@@ -11,7 +11,7 @@ ul{
 }
 
 li{
-    display:inline;
+    float: left;
     text-align:center;
 }
 
@@ -36,8 +36,9 @@ a:visited{
   border-color:black;
   color:blue;
   position:fixed;
-
-    
+  /*height and with will not work..Only elongates */
+  /*margin only lowers the position of the message and obstructs the menu */
+  margin:25px;
 }
 
 /*Classes*/
@@ -54,15 +55,13 @@ a:visited{
 }
 
 .menu{                              /*Applied to the fixed horizontal nav at the top of the screen*/
-    display:inline;
+    /*display:inline;*/
     border-style:solid;
     border-color:black;
     position:fixed;
-    
-    
-    
-    
-
+    /*height, weight, margin, float have no effect due to inline*/
+    margin:18px;
+    width:280px;
 }
 
 .promo-text{                       /*Corresponds to the text block between the first two pictures*/
