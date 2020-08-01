@@ -39,6 +39,8 @@ a:visited{
   /*margin only lowers the position of the message and obstructs the menu */
   margin:0px;
   text-align:center;
+  
+  
 }
   
 
@@ -49,23 +51,26 @@ a:visited{
 }
 
 .heading{                           /*Encloses the two fixed position elements at the top of the page*/
-    position:fixed;
-    max-width:500px;
     border-style:solid;
     border-color:red;
 }
 
 .menu{                              /*Applied to the fixed horizontal nav at the top of the screen*/
+    /*position:fixed;*/
     /*display:inline;*/
     border-style:solid;
-    border-color:blue
+    border-color:blue;
     /*height, weight, margin, float have no effect due to inline*/
+    
 }
 
 .promo-text{                       /*Corresponds to the text block between the first two pictures*/
+    border-style:solid;
+    border-color:blue;
     text-align:center;
     padding:50px;
     opacity:0.8;
+    margin-top:-95px;
 }
 
 .promo-text2{                      /*Corresponds to the text block between pictures 2 and 3*/
@@ -162,6 +167,16 @@ a:visited{
     text-align:right;
 }
 
+.align-center{
+    text-align:center;
+}
+
 .large-font{
     font-size:25px;
+}
+
+.position-right{
+    position:relative;
+    left:10px;
+
 }
