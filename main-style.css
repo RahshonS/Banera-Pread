@@ -16,6 +16,8 @@ li{
     text-align:center;
     border-style:solid;
     border-color:pink;
+    margin:0px;
+    width:95px;
     
 }
 
@@ -96,6 +98,22 @@ a:visited{
     background-color:white;
     /*height, weight, margin, float have no effect due to inline*/
     
+}
+
+.item-one{
+    margin:auto;
+    padding:10px 20px 0px 0px;
+}
+
+.item-two{
+    margin:0px 10px;
+    font-size:18px;
+    width:65px;
+}
+
+.item-three{
+    font-size:15px;
+    width:120px;
 }
 
 .promo-text{                       /*Corresponds to the text block between the first two pictures*/
@@ -236,4 +254,8 @@ a:visited{
 .float-center{
     position:absolute;
 
+}
+
+.avg-font{
+    font-size:12px;
 }
