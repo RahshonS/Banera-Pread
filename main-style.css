@@ -101,19 +101,25 @@ a:visited{
 }
 
 .item-one{
-    margin:auto;
+    position:absolute;
+    left:10px;
     padding:10px 20px 0px 0px;
 }
 
 .item-two{
-    margin:0px 10px;
+    /*margin:auto;*/
+    /*margin:0px 10px;*/
+    position:relative;
+    left:100px;
     font-size:18px;
-    width:65px;
+    width:25%;
 }
 
 .item-three{
+    position:absolute;
     font-size:15px;
     width:120px;
+    right:10px;
 }
 
 .promo-text{                       /*Corresponds to the text block between the first two pictures*/
