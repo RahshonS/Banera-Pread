@@ -110,7 +110,7 @@ a:visited{
     /*margin:auto;*/
     /*margin:0px 10px;*/
     position:relative;
-    left:100px;
+    left:111px;
     font-size:18px;
     width:25%;
 }
@@ -182,6 +182,10 @@ a:visited{
 }
 
 .float-left{
+    border-style:solid;
+    border-color:pink;
+    position:relative;
+    left:2px;
     float:left;
 }
 
@@ -190,7 +194,14 @@ a:visited{
 }
 
 .float-right{
-    float:right;
+    border-style:solid;
+    border-color:yellow;
+    position:relative;
+    right:5px;
+    /*float:right;*/
+    margin:5px;
+    padding:0px 5px;
+    text-align:center;
 }
 
 .footer-section{
@@ -250,11 +261,6 @@ a:visited{
 
 .large-font{
     font-size:25px;
-}
-
-.float-right{
-    float:right;
-    padding-left:10px;
 }
 
 .float-center{
