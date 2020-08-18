@@ -112,7 +112,7 @@ a:visited{
     position:relative;
     left:111px;
     font-size:18px;
-    width:25%;
+    width:24%;
 }
 
 .item-three{
@@ -182,8 +182,10 @@ a:visited{
 }
 
 .float-left{
+    /*
     border-style:solid;
     border-color:pink;
+    */
     position:relative;
     left:2px;
     float:left;
@@ -194,8 +196,10 @@ a:visited{
 }
 
 .float-right{
+    /*
     border-style:solid;
     border-color:yellow;
+    */
     position:relative;
     right:5px;
     /*float:right;*/
