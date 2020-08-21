@@ -182,8 +182,10 @@ a:visited{
 }
 
 .float-left{
+    /*
     border-style:solid;
     border-color:pink;
+    */
     position:absolute;
     left:35px;
     float:left;
@@ -195,9 +197,11 @@ a:visited{
 }
 
 .float-right{
+    /*
     border-style:solid;
     border-color:yellow;
-    position:absolute;
+    */
+    position:relative;      
     left:250px;
     /*float:right;*/
     margin:15px;
