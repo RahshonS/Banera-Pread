@@ -14,8 +14,10 @@ li{
     /*float:left;*/
     display:inline-block;
     text-align:center;
+    /*
     border-style:solid;
     border-color:pink;
+    */
     margin:0px;
     width:95px;
     
@@ -25,8 +27,10 @@ img{
     max-width:100%;
     height:auto;
     z-index:-1;
+    /*
     border-style:solid;
     border-color:pink;
+    */
 }
 
 a{
@@ -45,14 +49,17 @@ a:visited{
 
 /*ID's*/
 #opening-message{               /*Applied to the fixed message at the very top of the screen */
+  /*
   border-style:solid;
   border-color:black;
-  color:blue;
+  */
+  color:white;
   /*height and with will not work..Only elongates */
   /*margin only lowers the position of the message and obstructs the menu */
-  margin:0px;
+  margin:-17px;
+  padding:9px;
   text-align:center;
-  background-color:white;
+  background-color:green;
   
   
 }
@@ -76,12 +83,15 @@ a:visited{
 /*Resides at the top of the page under the opening message*/
 /*Has a fixed position and stays at the top of the page as the user scrolls (on mobile)*/
 /*method 1*/
-.menu{                              
+.menu{        
+    padding:10px;                      
     /*position:fixed;*/
     /*display:inline;*/
+    /*
     border-style:solid;
     border-color:blue;
     background-color:white;
+    */
     /*height, weight, margin, float have no effect due to inline*/
     
 }
@@ -123,12 +133,14 @@ a:visited{
 }
 
 .promo-text{                       /*Corresponds to the text block between the first two pictures*/
+    /*
     border-style:solid;
     border-color:blue;
+    */
     text-align:center;
+    opacity:0.78;
     background:rgba(250, 250, 250, 0.7);
     padding:50px;
-    opacity:0.68;
     margin-top:-65px;
 
 }
@@ -138,22 +150,26 @@ a:visited{
     padding:50px;
     background-color:gray;
     opacity:0.8;
-    margin-top:-35px;
+    margin-top:-70px;
 }
 
 .promo-text3{                   /*Corresponds to the text block between pictures 3 and 4*/
+    /*
     border-style:solid;
     border-color:blue;
+    */
     text-align:center;
     background:rgba(250, 250, 250, 0.7);
     padding:50px;
     opacity:0.8;
-    margin-top:-35px;
+    margin-top:-70px;
 }
 
 .promo-text4{                   /*Corresponds to the text block between pictures 4 and 5*/
+    /*
     border-style:solid;
     border-color:blue;
+    */
     text-align:center;
     background:rgba(250, 250, 250, 0.7);
     padding:40px;
@@ -162,8 +178,10 @@ a:visited{
 }
 
 .promo-text5{                   /*Corresponds to the text block between pictures 5 and 6*/
+    /*
     border-style:solid;
     border-color:blue;
+    */
     text-align:center;
     background:rgba(250, 250, 250, 0.7);
     padding:70px;
@@ -172,8 +190,10 @@ a:visited{
 }
 
 .promo-text6{                   /*Corresponds to the text block under the last picture*/
+    /*
     border-style:solid;
     border-color:blue;
+    */
     text-align:center;
     background:rgba(250, 250, 250, 0.7);
     padding:50px;
