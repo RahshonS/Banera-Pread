@@ -74,7 +74,7 @@ a:visited{
 /*Applied to the fixed position (paragraph) element at the very top of the page*/
 .heading{                           
     border-style:solid;
-    border-color:red;
+    border-color:blue;
 
     
 }
@@ -84,7 +84,7 @@ a:visited{
 /*Has a fixed position and stays at the top of the page as the user scrolls (on mobile)*/
 /*method 1*/
 .menu{        
-    padding:10px;                      
+    padding:10px;                     
     /*position:fixed;*/
     /*display:inline;*/
     /*
