@@ -8,17 +8,21 @@
     <body class="page-body">
         <!-- Header contains site's logo, a search bar, 3 nav bars (1 main, 1 mini, 1 verical) -->
         <header>
-            <p>Serving you safely | A letter on diversity and inclusion</p>                 
-            <img src="images/Logo.png" alt="Banera Pread logo" height=100 width=100>
-            <p>search bar</p>
+            <p class="border"> Serving you safely | A letter on diversity and inclusion</p>                 
+            <img src="images/Logo.png" alt="Banera Pread logo" height=100 width=100 class="border">
+            <p class="border">search bar</p>
 
             <!-- These two spans may need to be remade as a two element nav bar-->
-            <span> Sign in </span>
-            <span>Join</span>
+            <nav class="border">
+                <ul>
+                    <li> Sign in </li>
+                    <li>Join</li>
+                </ul>
+            </nav>
 
 
             <!-- main nav bar. Each item leads to a dropdown menu containing more nav links. Each dropdown spans the entire length of the screen -->
-            <nav>
+            <nav class="border">
                 <ul>
                     <li>Menu Items</li>
                     <li>Our Beliefs</li>
@@ -29,7 +33,7 @@
             </nav>
 
             <!-- Vertical nav bar. Should be placed on right hand side-->
-            <nav>
+            <nav class="border">
                 <ul>
                     <li>Order Online</li>
                     <li>Catering</li>
@@ -40,15 +44,21 @@
 
         <!-- main consists of 3 sections. Each made up of an image, Promotional text, and a button-->
         <main>
-            <h2>Come try one of our delicious new soups</h2>
-            <p>Each Starting at $5.99</p>
+
+            <!-- consider wrapping the text portion in an aside-->
+            <aside>
+                <h2>Come try one of our delicious new soups</h2>        
+                <p>Each Starting at $5.99</p>
+            </aside>
             <img src="images/Chicken-Noodle.jpg" alt="A nice hot bowl of chicken noodle soup" width="800" height="800">
 
+            <!-- consider wrapping the text portion in an aside-->
             <h3>We're here to serve you safely</h3>
             <p>Find out more about our new curb side pick up</p>
             <button>Order now</button>
             <img src="images/Car.png" alt="An image of a cartoon buggy" height="500" width="500">
 
+            <!-- consider wrapping the text portion in an aside-->
             <h3>The Gift That Keeps On Giving</h3>
             <p>Pick up one of our gift cards today. Great for any occasion!</p>
             <Button>Order now</Button>
