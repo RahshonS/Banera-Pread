@@ -6,3 +6,57 @@
     border-style:solid;
     border-color:pink;
 }
+
+#opening-message{
+    padding:15px;
+    margin-top:0;
+    text-align:center;
+}
+
+#logo{
+    position:relative;
+    left:100px;
+    /*margin-top:0px;*/
+    bottom:16px;
+    border-style:solid;
+    border-color:blue;
+}
+
+#search-bar{
+    position:relative;
+    left:120px;
+    bottom:110px;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+li{
+    display:inline;
+}
+
+.mini-nav{
+    width:7%;
+    position:relative;
+    left:810px;
+    bottom:130px;
+}
+
+.main-nav{
+    width:48%;
+    position:relative;
+    left:221px;
+    bottom:108px;
+    padding:20px;
+}
+
+.vert-nav{
+    width:25%;
+    position:relative;
+    left:950px;
+    bottom:218px;
+}
+
