@@ -54,9 +54,13 @@ li{
 }
 
 .vert-nav{
-    width:25%;
+    width:10%;
     position:relative;
     left:950px;
     bottom:218px;
+}
+
+button{
+    margin:7px 7px 7px 14px;
 }
 
