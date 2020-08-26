@@ -7,6 +7,11 @@
     border-color:pink;
 }
 
+.border2{
+    border-style:solid;
+    border-color:yellow;
+}
+
 #opening-message{
     padding:15px;
     margin-top:0;
@@ -58,6 +63,19 @@ li{
     position:relative;
     left:950px;
     bottom:218px;
+}
+
+.promo-text{
+    position:absolute;
+    width:35%;
+    top:50px;
+    left:15px;
+    
+}
+
+.section{
+    position:relative;
+    bottom:216px;
 }
 
 button{
