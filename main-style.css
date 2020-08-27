@@ -73,9 +73,29 @@ li{
     
 }
 
+.promo-text2{
+    position:absolute;
+}
+
+.promo-text3{
+    position:absolute;
+    width:25%;
+}
+
 .section{
     position:relative;
     bottom:216px;
+}
+
+.section2{
+    position:relative;
+    bottom:220px;
+}
+
+.section3{
+    position:relative;
+    bottom:730px;
+    left:705px;
 }
 
 button{
