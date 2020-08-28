@@ -98,6 +98,15 @@ li{
     left:705px;
 }
 
+.footer{
+    position:relative;
+    bottom:734px;
+}
+
+.footer-section1{
+    padding:50px;
+}
+
 button{
     margin:7px 7px 7px 14px;
 }
