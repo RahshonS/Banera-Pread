@@ -43,19 +43,20 @@ li{
     display:inline;
 }
 
-.mini-nav{
-    width:7%;
-    position:relative;
-    left:810px;
-    bottom:130px;
-}
-
 .main-nav{
     width:48%;
     position:relative;
     left:221px;
     bottom:108px;
     padding:20px;
+    font-size:16px;
+}
+
+.mini-nav{
+    width:7%;
+    position:relative;
+    left:810px;
+    bottom:130px;
 }
 
 .vert-nav{
@@ -70,16 +71,20 @@ li{
     width:35%;
     top:50px;
     left:15px;
+    padding:10px;
     
 }
 
 .promo-text2{
-    position:absolute;
+    position:relative;
+    width:310px;
+    height:220px;
 }
 
 .promo-text3{
-    position:absolute;
-    width:25%;
+    position:relative;
+    width:22%;
+    height:200px;
 }
 
 .section{
@@ -92,15 +97,30 @@ li{
     bottom:220px;
 }
 
+.image2{
+    position:relative;
+    left:315px;
+    bottom:227px;
+
+}
+
 .section3{
     position:relative;
-    bottom:730px;
-    left:705px;
+    bottom:677px;
+    left:690px;
+}
+
+.image3{
+    position:relative;
+    left:300px;
+    bottom:205px;
 }
 
 .footer{
     position:relative;
+    /*
     bottom:734px;
+    */
     width:90;
 }
 
