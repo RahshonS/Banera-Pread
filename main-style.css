@@ -78,13 +78,17 @@ li{
 .promo-text2{
     position:relative;
     width:310px;
+    left:375px;
+    bottom:230px;
     height:220px;
 }
 
 .promo-text3{
     position:relative;
-    width:22%;
-    height:200px;
+    width:320px;
+    height:220px;
+    bottom:906px;
+    left:1017px;
 }
 
 .section{
@@ -106,14 +110,14 @@ li{
 
 .section3{
     position:relative;
-    bottom:677px;
+    bottom:800px;
     left:690px;
 }
 
 .image3{
     position:relative;
-    left:300px;
-    bottom:205px;
+    left:691px;
+    bottom:676px;
 }
 
 .footer{
