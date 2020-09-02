@@ -2,6 +2,9 @@
     margin:0;
 }
 
+.header{
+}
+
 .border{
     border-style:solid;
     border-color:pink;
@@ -12,9 +15,15 @@
     border-color:yellow;
 }
 
+.border3{
+    border-style:solid;
+    border-color:blue;
+}
+
 #opening-message{
     padding:15px;
     margin-top:0;
+    margin-bottom:10px;
     text-align:center;
 }
 
@@ -46,6 +55,7 @@ li{
 .main-nav{
     width:48%;
     position:relative;
+    margin:0;
     left:221px;
     bottom:108px;
     padding:20px;
@@ -101,6 +111,11 @@ li{
     bottom:220px;
 }
 
+image{
+    position:relative;
+    top:400px;
+}
+
 .image2{
     position:relative;
     left:315px;
@@ -128,6 +143,10 @@ li{
 
 .footer-section2{
     padding:50px;
+}
+
+.mini-footer{
+    padding:10px;
 }
 
 button{
