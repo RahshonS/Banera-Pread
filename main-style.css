@@ -70,10 +70,13 @@ li{
 }
 
 .vert-nav{
+    display:inline-block;
     width:10%;
     position:relative;
     left:950px;
     bottom:218px;
+    margin:0;
+    padding:35px;
 }
 
 .promo-text{
