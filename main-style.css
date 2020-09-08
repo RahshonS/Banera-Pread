@@ -37,7 +37,7 @@
     position:relative;
     left:100px;
     /*margin-top:0px;*/
-    bottom:16px;
+    bottom:13px;
     border-style:solid;
     border-color:blue;
 }
@@ -66,6 +66,7 @@ li{
     bottom:108px;
     padding:20px;
     font-size:16px;
+    text-align:center;
 }
 
 .mini-nav{
@@ -112,7 +113,7 @@ li{
 
 .section{
     position:relative;
-    bottom:216px;
+    bottom:218px;
 }
 
 .section2{
