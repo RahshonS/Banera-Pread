@@ -63,10 +63,10 @@ li{
     position:relative;
     margin:0;
     left:221px;
-    bottom:108px;
+    bottom:107px;
     padding:20px;
     font-size:16px;
-    text-align:center;
+    text-align:left;
 }
 
 .mini-nav{
@@ -161,5 +161,11 @@ image{
 
 button{
     margin:7px 7px 7px 14px;
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    z-index:1;
 }
 
