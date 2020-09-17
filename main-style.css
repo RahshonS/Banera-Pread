@@ -163,9 +163,19 @@ button{
     margin:7px 7px 7px 14px;
 }
 
+.dropdown{
+    position:relative;
+    display:inline-block;
+}
+
 .dropdown-content{
-    display:none;
-    position:absolute;
+    display:none;               /*Hides the menu items*/
+    max-width:100px;
     z-index:1;
 }
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
 
