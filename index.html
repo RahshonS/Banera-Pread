@@ -6,65 +6,72 @@
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
     </head>
     <body>
+
         <!-- ******** Header contains site's logo, a search bar, 3 nav bars (1 main, 1 mini, 1 verical) ******** -->
-        <header>
-            <p> Serving you safely | A letter on diversity and inclusion</p>                 
-            <img src="images/Logo.png" id="logo" alt="Banera Pread logo" height=115 width=115>
-            <span>search bar</span>     <!-- Placeholder for an actual search bar -->
+        <header class="border">
+            <div class="opening-message">
+                <p> Serving you safely | A letter on diversity and inclusion</p> 
+            </div>                
+            
+            <img src="images/Logo.png" id="logo-img" alt="Banera Pread logo" height=115 width=115>
 
-            <!-- These two spans may need to be remade as a two element nav bar-->
-            <nav>
-                <ul>
-                    <li><a href="#">Sign in</a></li>
-                    <li><a href="#">Join</a></li>
-                </ul>
-            </nav>
+            <div class="flex-container-nav">
+                <span class="flex-item-nav">search bar</span>     <!-- Placeholder for an actual search bar -->
 
+                <!-- These two spans may need to be remade as a two element nav bar-->
+        
+                        <span><a href="#">Sign in</a></span>
+                        <span><a href="#">Join</a></span>
+            </div>
 
             <!-- main nav bar. Each item leads to a dropdown menu containing more nav links. Each dropdown spans the entire length of the screen -->
             <nav>
-                <ul>
-                    <div>
-                        <li><a href="#">Menu Items</a></li>
-                        <div>
-                            <p>More about our menu</p>
-                        </div>
+                <ul class="flex-container-nav-main">
+                    <div class="flex-container-nav-main-item">
+                        <li>
+                            <a href="#">Menu Items</a>
+                        </li>       
+                        <span>More about our menu</span>
                     </div>
-                    <div>
-                        <li><a href="#">Our Beliefs</a></li>
-                        <div>
-                            <p>More about our beliefs</p>
-                        </div>
+                    <div class="flex-container-nav-main-item">
+                        <li>
+                            <a href="#">Our Beliefs</a>
+                    
+                        </li> 
+                        <span>More about our beliefs</span>
                     </div>
-                    <div>
-                        <li><a href="#">Gift Cards</a></li>
-                        <div>
-                            <p>More about our gift cards</p>
-                        </div>
+                    <div class="flex-container-nav-main-item">
+                        <li>
+                            <a href="#">Gift Cards</a>
+                            
+                        </li>
+                        <span>More about our gift cards</span>
                     </div>
-                    <div>
-                        <li><a href="#">Banera At Home</a></li>
-                        <div>
-                            <p>More about our take out</p>
-                        </div>
+                    <div class="flex-container-nav-main-item">
+                        <li>
+                            <a href="#">Banera At Home</a>
+                            
+                        </li>
+                        <span>More about our take out</span>
                     </div>
-                    <div>
-                        <li><a href="#">MyBanera</a></li>
-                        <div>
-                            <p>More about our rewards</p>
-                        </div>
+                    <div class="flex-container-nav-main-item">
+                        <li>
+                            <a href="#">MyBanera</a>
+                            
+                        </li>
+                        <span>More about our rewards</span>
                     </div>
                 </ul>
             </nav>
 
             <!-- Vertical nav bar. Should be placed on right hand side-->
-            <section>
-                <ul>
-                    <li><a href="#">Order Online</a></li>
-                    <li><a href ="#">Catering</a></li>
-                    </li><a href="#">Now hiring</a></li>
+            <div>
+                <ul class="vert-nav">
+                    <li class="btn"><a href="#">Order Online</a></li>
+                    <li class="btn"><a href ="#">Catering</a></li>
+                    <li class="btn"><a href="#">Now hiring</a></li>
                 </ul>
-            </section>
+            </div>
         </header>
 
         <!-- main consists of 3 sections. Each made up of an image, Promotional text, and a button-->
