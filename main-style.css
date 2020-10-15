@@ -94,32 +94,65 @@ header img{
 .vert-nav{
     width:180px;
     position:absolute;
-    right:250px;
-    top:45px;
+    left:910px;
+    top:55px;
 }
 
 .btn{
     text-align:center;
     margin:10px;
     padding:9px;
-    background:pink;
+    background:pink;        /*Should eventually be white*/
     border-radius:5px;
     
+}
+
+.btn-alt{
+    text-align:center;
+    margin:10px;
+    padding:9px;
+    background-color:#D2691E;
+    border-radius:5px;
+}
+
+.btn-alt a{
+    color:white;
 }
 
 
 
 /* --- PROMOTIONS 
 ---------------------------*****/
+.promo{
+    color:#D2691E;                      /*Replace with dark brown*/
+}
 
-.promo-item-main{
+.promo button{
+    color:white;
+    background:#D2691E;
+}
 
+.promo .main{
+    border:solid 1px pink;
+    width:280px;
+    position:absolute;
+    left:40px;
+    bottom:260px;
+    text-align:left;
+}
+
+.promo .main h2{
+    font-size:30px;
+}
+
+.promo .main p{
+    font-size:20px;
 }
 
 
-.promo-item{
 
-}
+
+
 
 
 
