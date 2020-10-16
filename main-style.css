@@ -132,12 +132,26 @@ header img{
     background:#D2691E;
 }
 
+.promo a{
+    text-decoration:none;
+    color:white;
+    background:#D2691E;
+    border-radius:10px;
+    padding:10px;
+    margin:8px 0px;
+}
+
+.promo a:hover{
+    background:pink;                /*Change to dark orange*/
+}
+
 .promo .main{
     border:solid 1px pink;
+    color:white;
     width:280px;
     position:absolute;
     left:40px;
-    bottom:260px;
+    bottom:140px;
     text-align:left;
 }
 
@@ -149,6 +163,19 @@ header img{
     font-size:20px;
 }
 
+.flex-container-promo{
+    display:flex;
+}
+
+.flex-item-promo{
+    box-sizing:border-box;
+    border:solid 1px green;
+    flex:1 1 100px;
+}
+
+.flex-container-promo aside{
+    padding-left:7px;
+}
 
 
 
@@ -156,5 +183,6 @@ header img{
 
 
 
-/* --- CONTACT INFO 
+
+/* --- FOOTER INFO 
 -------------------- *****/
