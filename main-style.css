@@ -182,4 +182,10 @@ header img{
 
 /* --- FOOTER MENUS
 -------------------- *****/
+footer a{
+    color:#D2691E;
+}
 
+footer p{
+    text-align:left;
+}
