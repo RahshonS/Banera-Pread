@@ -95,7 +95,7 @@ header img{
     width:180px;
     position:absolute;
     left:910px;
-    top:55px;
+    top:45px;
 }
 
 .btn{
@@ -214,6 +214,7 @@ footer p{
     left:350px;
     display:flex;
     width:700px;
+    margin:0;
 }
 
 .flex-item-footer-2{
