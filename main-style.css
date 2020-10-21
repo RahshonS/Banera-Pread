@@ -192,12 +192,31 @@ footer p{
 
 .flex-container-footer{
     position:relative;
-    left:250px;
+    left:296px;
     width:800px;
     display:flex;
 }
 
 .flex-item-footer{
+    box-sizing:border-box;
+    flex:1 1 100px;
+}
+
+.flex-item-footer p{
+    text-align:center;
+}
+
+
+/* ---- ADDITIONAL INFO 
+----------------------------*/
+.flex-container-footer-2{
+    position:relative;
+    left:350px;
+    display:flex;
+    width:700px;
+}
+
+.flex-item-footer-2{
     box-sizing:border-box;
     flex:1 1 100px;
 }
