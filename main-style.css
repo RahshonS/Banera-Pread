@@ -184,6 +184,11 @@ header img{
 -------------------- *****/
 footer a{
     color:#D2691E;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:black;
 }
 
 footer p{
@@ -207,6 +212,8 @@ footer p{
 }
 
 
+
+
 /* ---- ADDITIONAL INFO 
 ----------------------------*/
 .flex-container-footer-2{
@@ -220,4 +227,13 @@ footer p{
 .flex-item-footer-2{
     box-sizing:border-box;
     flex:1 1 100px;
+}
+
+.flex-container-footer-2 a{
+    text-decoration:none;
+    color:#D2691E
+}
+
+.flex-container-footer-2 a:hover{
+    color:black;
 }
