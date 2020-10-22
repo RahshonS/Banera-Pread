@@ -165,12 +165,18 @@ header img{
 
 .flex-container-promo{
     display:flex;
+    margin:0px;
 }
 
 .flex-item-promo{
     box-sizing:border-box;
     border:solid 1px green;
     flex:1 1 100px;
+}
+
+.flex-container-promo img{
+    height:217px;
+    width:350px;
 }
 
 .flex-container-promo aside{
@@ -207,9 +213,13 @@ footer p{
     flex:1 1 100px;
 }
 
-.flex-item-footer p{
-    text-align:center;
+
+
+.flex-item-footer nav{
+    position:relative;
+    right:40px;
 }
+
 
 
 
