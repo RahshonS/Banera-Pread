@@ -1,3 +1,11 @@
+/*COLORS
+Chocolate - #D2691E
+BurleyWood - #DEB887
+Ivory - #FFFFF0
+Saddlebrown - #8B4513
+
+
+
 /** Global Styles 
 --------------------------- **/
 
@@ -11,6 +19,7 @@ html {
 
 
 body{
+    background-color:#FFFAF0;
     margin:0;               /*Convention*/
     padding:0;              /*Convention*/
 }
@@ -22,10 +31,8 @@ li{
 
 /* --- MAIN NAVIGATION MENU
 -------------------------------*****/
-header{
-    /* background: #D2691E; */
-    /* text-align:center; */
-
+.header{
+    position:sticky;
 }
 
 header a{
@@ -34,7 +41,7 @@ header a{
 }
 
 header a:hover{
-    color:black;
+    color:#8B4513;
 }
 
 header img{
@@ -58,7 +65,7 @@ header img{
     position:absolute;
     left:320px;
     top:70px;
-    width:630px;
+    width:215px;
     display:flex;
     border: 1px solid midnightblue;
 }
@@ -75,7 +82,7 @@ header img{
 
 .flex-container-nav-main{
     position:absolute;
-    top:95px;
+    top:90px;
     left:290px;
     width:660px;
     display:flex;
@@ -95,28 +102,45 @@ header img{
     width:180px;
     position:absolute;
     left:910px;
-    top:45px;
+    top:48px;
 }
 
 .btn{
     text-align:center;
-    margin:10px;
-    padding:9px;
-    background:pink;        /*Should eventually be white*/
+    font-weight:bold;
+    margin:7px;
+    padding:6px;
+    border:solid 2px white;
+    background:white;        /*Should eventually be white*/
     border-radius:5px;
     
 }
 
 .btn-alt{
     text-align:center;
-    margin:10px;
-    padding:9px;
+    margin:7px;
+    padding:6px;
     background-color:#D2691E;
     border-radius:5px;
 }
 
+.btn-search{
+    text-align:center;
+    background-color:#D2691E;
+    color:white;
+    margin:0;
+}
+
 .btn-alt a{
     color:white;
+}
+
+.btn-alt a:hover{
+    color:white;
+}
+
+nav span{
+    font-size:11px;
 }
 
 
