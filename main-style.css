@@ -28,6 +28,10 @@ li{
     list-style-type: none;
 }
 
+a:hover{
+    color:#8B4513;
+}
+
 
 /* --- MAIN NAVIGATION MENU
 -------------------------------*****/
@@ -68,6 +72,7 @@ header img{
     width:215px;
     display:flex;
     border: 1px solid midnightblue;
+    padding:0;
 }
 
 .flex-item-nav{
@@ -88,7 +93,6 @@ header img{
     display:flex;
     flex-wrap:nowrap;
     border: 1px solid midnightblue;
-
 }
 
 .flex-container-nav-main-item{
@@ -136,6 +140,7 @@ header img{
 }
 
 .btn-alt a:hover{
+    background:#8B4513;
     color:white;
 }
 
@@ -196,6 +201,13 @@ nav span{
     box-sizing:border-box;
     border:solid 1px green;
     flex:1 1 100px;
+    background:#F5FFFA;
+    color:#8B4513;
+}
+
+.flex-item-promo h3{
+    font-size:24px;
+    font-weight:bold;
 }
 
 .flex-container-promo img{
@@ -205,6 +217,11 @@ nav span{
 
 .flex-container-promo aside{
     padding-left:7px;
+}
+
+.alt-coloring{
+    background:black;
+    color:white;
 }
 
 
@@ -235,6 +252,12 @@ footer p{
 .flex-item-footer{
     box-sizing:border-box;
     flex:1 1 100px;
+}
+
+.flex-item-footer p{
+    font-size:18px;
+    color:#8B4513;
+    
 }
 
 
