@@ -3,6 +3,7 @@ Chocolate - #D2691E
 BurleyWood - #DEB887
 Ivory - #FFFFF0
 Saddlebrown - #8B4513
+(gift card)- #ffe88a;
 
 
 
@@ -201,7 +202,7 @@ nav span{
     box-sizing:border-box;
     border:solid 1px green;
     flex:1 1 100px;
-    background:#686868;
+    background:#3a3a38;
     color:#8B4513;
 }
 
@@ -220,7 +221,7 @@ nav span{
 }
 
 .alt-coloring{
-    background:black;
+    background:#fbeea3;
     color:white;
 }
 
@@ -288,7 +289,7 @@ footer p{
 
 .flex-container-footer-2 a{
     text-decoration:none;
-    color:#D2691E
+    color:#D2691E;
 }
 
 .flex-container-footer-2 a:hover{
