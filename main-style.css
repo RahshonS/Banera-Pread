@@ -34,7 +34,7 @@ a:hover{
 }
 
 
-/* --- MAIN NAVIGATION MENU
+/* --- HEADER MENUS
 -------------------------------*****/
 .header{
     position:sticky;
@@ -70,7 +70,7 @@ header img{
     position:absolute;
     left:320px;
     top:70px;
-    width:215px;
+    width:615px;
     display:flex;
     border: 1px solid midnightblue;
     padding:0;
@@ -134,6 +134,11 @@ header img{
     background-color:#D2691E;
     color:white;
     margin:0;
+    border:solid 1px #D2691E;
+}
+
+.btn-search a{
+    color:white;
 }
 
 .btn-alt a{
@@ -149,10 +154,29 @@ nav span{
     font-size:11px;
 }
 
+.search-bar{
+    position:relative;
+    display:inline;
+    left:210px;
+    bottom:95px;
+    margin:0;
+}
+
+.user-options-bar{
+    position:relative;
+    display:inline;
+    left:630px;
+    bottom:95px;
+}
 
 
 /* --- PROMOTIONS 
 ---------------------------*****/
+.main-img{
+    padding:0;
+    margin:0;
+}
+
 .promo{
     color:#D2691E;                      /*Replace with dark brown*/
 }
